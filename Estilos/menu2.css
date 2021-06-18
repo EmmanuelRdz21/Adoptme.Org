@@ -1,0 +1,99 @@
+.menu_second input{
+	display: flex;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bolder;
+	padding: 10px;
+}
+.menu_second #menu2_1:hover{
+	background: rgba(51,41,130,0.3);
+	cursor: pointer;
+}
+.op_1{
+	padding: 10px;
+	margin: 15px;
+	color: #777;
+	font-weight: bolder;
+}
+.op_2{
+	padding: 10px;
+	margin: 15px;
+	color: #777;
+	font-weight: bolder;
+}
+#menu2_1{
+	display: none;
+	padding: 10px;
+}
+#menu2_2{
+	display: none;
+}
+#menu2_1:checked ~ .op_1{
+	border-bottom: 5px solid rgba(51,41,130,1);
+	color: #332982;
+}
+#menu2_2:checked ~ .op_2{
+	border-bottom: 5px solid rgba(51,41,130,1);
+	color: #332982;
+}
+
+.next_fam{
+	padding-top: 25px;
+	padding-left: 25px;
+	height: 250px;
+	width: 16em;
+}
+
+.art1{
+	margin: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	width: auto;
+	height: auto;
+	position: center;
+	/*background: gray;*/
+}
+.art1 img, .art2 img{
+	padding: 0px;
+}
+.art2{
+	margin: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	width: auto;
+	height: auto;
+	position: center;
+	/*background: gray;*/
+}
+.cont-art1, .cont-art2{
+	float: left;
+	padding: 15px;
+}
+.cont-art1 h2, .cont-art2 h2{
+	color: #EF3E42;
+}
+.cont-art1 a{
+	margin: 15px 0px;
+	display: block;
+	width: 100px;
+	color: #EF3E42;
+	text-align: center;
+	text-decoration: none;
+	border: 3px solid #EF3E42;
+}
+.cont-art2 a{
+	margin: 15px 0px;
+	display: block;
+	width: 100px;
+	color: #EF3E42;
+	text-align: center;
+	text-decoration: none;
+	border: 3px solid #EF3E42;
+}
+
+.cont-art2 p{
+	max-width: 35em;
+}
+.cont-art1 p{
+	max-width: 35em;
+}

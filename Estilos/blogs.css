@@ -1,0 +1,142 @@
+.blog .contenedor{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	position: relative;
+	width: 95%;
+	margin: auto;
+}
+}
+.blog article{
+	margin: 0.93em;
+}
+.cont-girl{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 30em;
+	position: center;
+	margin: auto;
+	max-width: 450px;
+	box-shadow: 4px 4px 8px 0px gray;
+	position: relative;
+}
+.cont-girl h1{
+	font-size: 15px;
+	padding: 10px 10px 10px;
+	font-weight: 900;
+	width: 100%;
+	height: 3em;
+}
+.cont-girl p{
+	padding: 20px;
+	max-width: 80%;
+	width: auto;
+	height: auto;
+}
+
+.cont-girl img{
+	width: 100%;
+	position: absolute;
+	padding-top: 2.82em;
+}
+#max{
+	flex-wrap: wrap;
+	width: 100%;
+	padding: 10px;
+	padding-top: 15em;
+}
+#join{
+	padding: 20px;
+	width: 100%;
+}
+.blog .contenedor .cont-girl  a{
+	height: 30px;
+	width: 5em;
+	font-size: 13px;
+	font-weight: bolder;
+	color: #332982;
+	text-align: center;
+	text-decoration: none;
+	padding: 5px;
+	border: 2px solid #332982;
+}
+.cont-girl a:hover{
+	background: rgba(51,41,130,0.3);
+	cursor: pointer;
+}
+.header-blue{
+	background: #332982;
+	width: 28.125em;
+	height: 1.8125em;
+	color: #fff;
+}
+
+.cont-testim{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 15em;
+	position: center;
+	margin: auto;
+	max-width: 450px;
+	position: relative;
+}
+.cont-testim .contenedor{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+.cont-testim h1{
+	font-size: 15px;
+	padding: 15px;
+	font-weight: 900;
+}
+.cont-testim iframe{
+	width: 100%;
+	position: absolute;
+	padding-top: 40px;
+}
+
+.cont-testim .contenedor h2{
+	color: #fff;
+	font-weight: normal;
+	margin-right: 25%;
+	padding-top: 15px;
+}
+.header-red{
+	padding: 3px 9px;
+	background: #EF3E42;
+	width: 100%;
+	height: 45px;
+	color: #fff;
+	position: absolute;
+}
+
+@media (min-width: 880px){
+	.cont-testim{
+		top: -2px;
+		float: left;
+		height: 31.93em;
+		width: auto;
+
+	}
+	.cont-testim iframe{
+	position: relative;
+	padding-top: 2.85em;
+
+	}
+	.cont-girl{
+		max-width: 40%;
+		padding-right: 0px;
+	}	
+	.cont-girl img{
+		max-height: 20em;
+	}
+	#max{
+	width: 100%;
+	padding: 10px;
+	padding-top: 16em;
+}
+}
