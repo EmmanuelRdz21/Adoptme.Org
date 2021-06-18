@@ -118,9 +118,8 @@
 	.cont-testim{
 		top: -2px;
 		float: left;
-		height: 31.93em;
-		width: auto;
-
+		height: 100%;
+		min-width: 20em;
 	}
 	.cont-testim iframe{
 	position: relative;
